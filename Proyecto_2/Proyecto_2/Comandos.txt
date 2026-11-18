@@ -1,0 +1,23 @@
+# Proyecto 2 - comandos para puntos 3 y 4
+
+cd fotomosaico
+
+chmod +x medir_p3_p4.sh
+
+# Compilar
+make build
+
+# Cinco corridas por configuracion, usando CPU 2 y perf si esta disponible
+make mediciones REPS=5 CATALOG=../val2017 CPU=2
+
+# Perfilado final NEON O2
+make perfil CATALOG=../val2017 CPU=2
+
+# Todo en una sola orden
+make todo REPS=5 CATALOG=../val2017 CPU=2
+
+# Si perf no esta disponible:
+make mediciones REPS=5 CATALOG=../val2017 CPU=2 USE_PERF=0
+
+# Si no se desea fijar un CPU:
+make mediciones REPS=5 CATALOG=../val2017 CPU=-1
