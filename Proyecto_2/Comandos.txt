@@ -1,0 +1,2 @@
+chmod +x medir_neon.sh
+./medir_neon.sh
