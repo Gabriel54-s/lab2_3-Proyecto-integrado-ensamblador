@@ -1,0 +1,13 @@
+impl,opt,imagen_id,hash_salida,estable_entre_corridas,hash_referencia_escalar,igual_a_referencia
+escalar,O0,prueba1,e6f47f9cb1a64846,si,e6f47f9cb1a64846,si
+escalar,O2,prueba1,e6f47f9cb1a64846,si,e6f47f9cb1a64846,si
+escalar,O3,prueba1,e6f47f9cb1a64846,si,e6f47f9cb1a64846,si
+neon,O0,prueba1,e6f47f9cb1a64846,si,e6f47f9cb1a64846,si
+neon,O2,prueba1,e6f47f9cb1a64846,si,e6f47f9cb1a64846,si
+neon,O3,prueba1,e6f47f9cb1a64846,si,e6f47f9cb1a64846,si
+escalar,O0,prueba2,d96aac23cf4946ce,si,d96aac23cf4946ce,si
+escalar,O2,prueba2,d96aac23cf4946ce,si,d96aac23cf4946ce,si
+escalar,O3,prueba2,d96aac23cf4946ce,si,d96aac23cf4946ce,si
+neon,O0,prueba2,d96aac23cf4946ce,si,d96aac23cf4946ce,si
+neon,O2,prueba2,d96aac23cf4946ce,si,d96aac23cf4946ce,si
+neon,O3,prueba2,d96aac23cf4946ce,si,d96aac23cf4946ce,si

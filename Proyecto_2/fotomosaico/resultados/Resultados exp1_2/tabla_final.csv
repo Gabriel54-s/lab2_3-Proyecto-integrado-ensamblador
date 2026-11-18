@@ -1,0 +1,7 @@
+implementacion,prueba1_t_total_s,prueba1_t_mosaico_s,prueba2_t_total_s,prueba2_t_mosaico_s
+Escalar -O0,112.9635,0.3757,118.2002,2.2771
+Escalar -O2,42.5517,0.1038,44.5960,0.6284
+Escalar -O3,42.9726,0.1042,44.7632,0.6314
+NEON -O0,112.9254,0.3753,118.2274,2.2708
+NEON -O2,42.5566,0.1039,44.5790,0.6281
+NEON -O3,42.9660,0.1041,44.7709,0.6306
